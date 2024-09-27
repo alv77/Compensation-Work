@@ -8,9 +8,9 @@ const routes = Router();
  * you are using, e.g., if you use an Animal class, all the paths
  * might start with '/animals'.
  */
-routes.get('/resources', controller.getAll);
-routes.post('/resources', controller.create);
-routes.put('/resources/:id', controller.update);
-routes.delete('/resources/:id', controller.delete);
+routes.get('/animals', controller.getAll);
+routes.post('/animals', controller.create);
+routes.put('/animals/:id', controller.update);
+routes.delete('/animals/:id', controller.delete);
 
 module.exports = routes;
