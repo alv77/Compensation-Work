@@ -10,7 +10,7 @@
    so that you have some instances of your object available that can be served to the client.
  */
    class Animal {
-    constructor(name, age, isMammal, born = new Date()) {
+    constructor(name, age, isMammal) {
         this.name = name;          // String property
         this.age = age;            // Number property
         this.isMammal = isMammal;  // Boolean property
